@@ -18,8 +18,9 @@
 * sudo docker compose exec app php artisan db:seed
 * Visit http://localhost:8100 to see Laravel application.
 ## usage:
-* docker compose up -d to start all containers
-* docker compose down to stop all containers
+* to start all containers: sudo docker compose up -d
+* to stop all containers: sudo docker compose down
+* to run unit tests: sudo docker compose exec app vendor/bin/phpunit
 * to test application you can use Postman, available urls and actions:
 * GET http://localhost:8100/api/news
 * POST http://localhost:8100/api/news
